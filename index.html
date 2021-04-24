@@ -9,6 +9,13 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -67,7 +74,7 @@
           <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
           <li><a class="nav-link scrollto" href="#events">Eventos</a></li>
           <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Galleria</a></li>    
+          <li><a class="nav-link scrollto" href="#gallery">Galeria</a></li>    
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
         </ul>
@@ -105,6 +112,278 @@
       </div>
     </div>
   </section><!-- End Hero -->
+
+
+
+  <div class="container py-5" data-aos="fade-up">
+    <!-- For demo purpose -->
+    <div class="row mb-5">
+      <div class="col-lg-8 text-white py-4 text-center mx-auto">
+        <h1 class="display-4">Cardápio</h1>
+        <p class="lead mb-0">Escolha as opções dentro de cada aba</p>
+        
+      </div>
+    </div>
+    <!-- End -->
+
+  
+  
+    <div class="container menu section-bg p-5 bg-black rounded shadow mb-5"     data-aos="fade-up"    >
+      <!-- Rounded tabs -->
+      <ul id="myTab" role="tablist" class="nav nav-tabs flex-sm-row text-center border-0 rounded-nav">
+        <li class="nav-item flex-sm-fill">
+          <a id="bacon-tab" data-toggle="tab" href="#bacon" role="tab" aria-controls="bacon" aria-selected="true" class="nav-link border-0 text-uppercase font-weight-bold active">Bacon</a>
+        </li>
+        <li class="nav-item flex-sm-fill">
+          <a id="calabresa-tab" data-toggle="tab" href="#calabresa" role="tab" aria-controls="calabresa" aria-selected="false" class="nav-link border-0 text-uppercase font-weight-bold">Calabresa</a>
+        </li>
+        <li class="nav-item flex-sm-fill">
+          <a id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false" class="nav-link border-0 text-uppercase font-weight-bold">Contact</a>
+        </li>
+      </ul>
+      <div id="myTabContent" class="tab-content">
+        <div id="bacon" role="tabpanel" aria-labelledby="bacon-tab" class="tab-pane fade px-4 py-5 show active">
+          <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-6 menu-item filter-starters">
+          <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Lobster Bisque</a><span>$5.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Lorem, deren, trataro, filede, nerada
+          </div>
+        </div>
+		  
+		  <div class="col-lg-6 menu-item filter-salads">
+          <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Lobster Bisque</a><span>$5.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Lorem, deren, trataro, filede, nerada
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-specialty">
+          <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Bread Barrel</a><span>$6.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Lorem, deren, trataro, filede, nerada
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-starters">
+          <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Crab Cake</a><span>$7.95</span>
+          </div>
+          <div class="menu-ingredients">
+            A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-salads">
+          <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Caesar Selections</a><span>$8.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Lorem, deren, trataro, filede, nerada
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-specialty">
+          <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Tuscan Grilled</a><span>$9.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-starters">
+          <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Mozzarella Stick</a><span>$4.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Lorem, deren, trataro, filede, nerada
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-salads">
+          <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Greek Salad</a><span>$9.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Fresh spinach, crisp romaine, tomatoes, and Greek olives
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-salads">
+          <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Spinach Salad</a><span>$9.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-specialty">
+          <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Lobster Roll</a><span>$12.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+          </div>
+        </div>
+
+      </div>
+          <p class="text-muted mb-0">Lorem dfgdgdfg dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+
+        
+        <div id="calabresa" role="tabpanel" aria-labelledby="calabresa-tab" class="tab-pane fade px-4 py-5">
+          <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-6 menu-item filter-starters">
+              <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a>Calabresa</a><span>R$5.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Lorem, deren, tartaro, filede, nerada
+              </div>
+            </div>
+          
+          <div class="col-lg-6 menu-item filter-salads">
+              <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Lobster Bisque</a><span>$5.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </div>
+            </div>
+    
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Bread Barrel</a><span>$6.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </div>
+            </div>
+    
+            <div class="col-lg-6 menu-item filter-starters">
+              <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Crab Cake</a><span>$7.95</span>
+              </div>
+              <div class="menu-ingredients">
+                A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+              </div>
+            </div>
+    
+            <div class="col-lg-6 menu-item filter-salads">
+              <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Caesar Selections</a><span>$8.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </div>
+            </div>
+    
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Tuscan Grilled</a><span>$9.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+              </div>
+            </div>
+    
+            <div class="col-lg-6 menu-item filter-starters">
+              <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Mozzarella Stick</a><span>$4.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </div>
+            </div>
+    
+            <div class="col-lg-6 menu-item filter-salads">
+              <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Greek Salad</a><span>$9.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Fresh spinach, crisp romaine, tomatoes, and Greek olives
+              </div>
+            </div>
+    
+            <div class="col-lg-6 menu-item filter-salads">
+              <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Spinach Salad</a><span>$9.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+              </div>
+            </div>
+    
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Lobster Roll</a><span>$12.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+              </div>
+            </div>
+    
+          </div>
+          <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+
+        <div id="contact" role="tabpanel" aria-labelledby="contact-tab" class="tab-pane fade px-4 py-5">
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <!-- End rounded tabs -->
+    </div>
+  
+  
+    
+    </div>
+  
+  </div>
+
+
+
+
+
+
 
   <!-- ======= Menu Section ======= -->
   <section id="menu" class="menu section-bg">
@@ -250,6 +529,7 @@
           
   
         </div>
+        
 
     </div>
   </div>
