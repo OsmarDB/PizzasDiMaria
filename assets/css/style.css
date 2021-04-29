@@ -1755,7 +1755,7 @@ Foods menu
 
 .food-menu-card {
     padding: 30px 20px;
-    background-color: black;
+    background-color: #1a1814;
     border-radius: 8px;
 }
 
@@ -1788,12 +1788,12 @@ Foods menu
     display: inline-block;
     margin-bottom: 0;
     padding-right: 1.07143rem;
-    background-color: #000;
+    background-color: #1a1814;
     z-index: 2;
 }
 
 .food-menu-card .media strong {
-    background-color: #000;
+    background-color: #1a1814;
     display: block;
     padding-left: 15px;
     z-index: 2;
@@ -1810,7 +1810,7 @@ Foods menu
 
 .tabs-menu-nav > li > a.active {
     opacity: 1;
-    border-bottom-color: #db2e2e;
+    border-bottom-color: #cda45e;
 }
 .media-body, p {
     color: #999;
